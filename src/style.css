@@ -2,3 +2,26 @@
     font-style: italic;
     color: red;
 }
+body{
+    font-family:  sans-serif;
+}
+
+h2{
+    color: burlywood;
+}
+
+h3{
+    color: coral;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+
