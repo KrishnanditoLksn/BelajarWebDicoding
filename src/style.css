@@ -1,27 +1,33 @@
-.kemukus{
-    font-style: italic;
-    color: red;
+.kemukus {
+  font-style: italic;
+  color: red;
 }
-body{
-    font-family:  sans-serif;
-}
-
-h2{
-    color: burlywood;
+body {
+  font-family: "Quicksand", sans-serif;
 }
 
-h3{
-    color: coral;
+h2 {
+  color: burlywood;
 }
 
-h1{
-    font-family: sans-serif;
+h3 {
+  color: coral;
 }
 
-footer{
-    padding: 20px;
-    color: white;
-    background-color: darkgoldenrod;
+h1 {
+  font-family: sans-serif;
 }
 
+footer {
+  padding: 20px;
+  color: white;
+  background-color: darkgoldenrod;
+}
 
+h4 {
+  color: burlywood;
+}
+
+.sragen_aside {
+  color: orangered;
+}
