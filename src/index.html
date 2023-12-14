@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8" />
+  <!-- External link to connect google font  -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
   <title>Halaman Profil Sragen</title>
-  <body>
-    <header>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
-        rel="stylesheet"
-      />
+
+  <body class="website_body">
+    <header class="jumbotron_header">
       <h1>Sragen</h1>
       <p>Merupakan Kabupaten di Solo Raya , provinsi Jawa Tengah , Indonesia</p>
-      <nav>
-        <ul>
-          <li>
-            <a href="#sejarah">Sejarah</a>
-          </li>
-          <li>
-            <a href="#geografis">Geografis</a>
-          </li>
-          <li>
-            <a href="#wisata">Wisata</a>
-          </li>
-        </ul>
-      </nav>
     </header>
+    <nav class="top_nav">
+      <ul>
+        <li>
+          <a href="#sejarah">Sejarah</a>
+        </li>
+        <li>
+          <a href="#geografis">Geografis</a>
+        </li>
+        <li>
+          <a href="#wisata">Wisata</a>
+        </li>
+      </ul>
+    </nav>
     <!-- Untuk mempermudah styling  , maka dibuat p class  -->
     <article>
-      <section id="sejarah">
+      <section id="sejarah" class="box_card">
         <h2 id="sejarah">Sejarah</h2>
-        <img src="../res/download.jpeg" height="500px" alt="image sejarah" />
+        <img
+          src="../res/download.jpeg"
+          height="500px"
+          alt="image sejarah"
+          class="profile_image"
+        />
         <p class="sejarah_sragen">
           <strong
             >Kabupaten sragen mempunyai hari jadi yaitu Selasa Pon , tanggal ,
@@ -42,16 +49,20 @@
           </strong>
         </p>
       </section>
-      <section id="info_sragen">
+      <section id="info_sragen" class="box_card">
         <p class="info_sragen">
           Sragen berasal dari kata pasrah dan legen yang disematkan oleh
           Pangeran Sukowati
         </p>
       </section>
 
-      <section id="geografis_sragen">
+      <section id="geografis_sragen" class="box_card">
         <h3 id="geografis">Geografis</h3>
-        <img src="../res/sragen.png" alt="geografis_sragen" />
+        <img
+          src="../res/sragen.png"
+          alt="geografis_sragen"
+          class="profile_image"
+        />
         <p class="geografis_sragen">
           Kabupaten Sragen terletak di 7°15' – 7°30' Lintang Selatan dan 110°45'
           – 111°10' Bujur Timur.wilayahnya pun ada juga di lembah daerah aliran
@@ -62,27 +73,35 @@
         </p>
       </section>
 
-      <section id="info_museum_sangiran">
+      <section id="info_museum_sangiran" class="box_card">
         <h3 id="wisata">Wisata</h3>
         <h4 id="wisata">Museum Purbakala Sangiran</h4>
-        <img src="../res/museum_sangiran_logo.jpg" alt="museum" />
+        <img
+          src="../res/museum_sangiran_logo.jpg"
+          alt="museum"
+          class="profile_image"
+        />
         <p class="info_museum_sangiran">
           merupakan salah satu tempat situs purbakala yang sudah diakui oleh
           UNESCO , di museum ini berisi fosil - fosil dan tulang manusia purba ,
           lokasinya terletak di
           <a href="https://id.wikipedia.org/wiki/Kalijambe,_Sragen"
-            >Kalijambe</a
-          >
-          ,
+            >Kalijambe ,
+          </a>
+
           <a href="https://id.wikipedia.org/wiki/Plupuh,_Sragen">plubuh</a> dan
           Kecamatan
           <a href="https://id.wikipedia.org/wiki/Gemolong,_Sragen">Gemolong</a>
         </p>
       </section>
 
-      <section id="info_wisata_kemukus">
+      <section id="info_wisata_kemukus" class="box_card">
         <h4 id="kemukus">Wisata gunung kemukus</h4>
-        <img src="../res/Kemukus.jpg" alt="info_wisata_kemukus" />
+        <img
+          src="../res/Kemukus.jpg"
+          alt="info_wisata_kemukus"
+          class="profile_image"
+        />
         <p class="info_wisata_kemukus">
           Wisata <span class="kemukus">gunung Kemukus</span> ini termasuk ke
           wisata religi keluarga yang diresmikan oleh ketua DPR RI Puan
@@ -93,18 +112,23 @@
     </article>
     <br />
     <aside>
-      <article>
+      <article class="sragen_aside_header">
         <header>
-          <h1 class="sragen_aside">Kabupaten Sragen</h1>
+          <h1>Kabupaten Sragen</h1>
           <p>Bumi Sukowati</p>
         </header>
         <figure>
-          <img src="/res/lambang_srg.jpg" alt="lambang_srg" />
+          <img
+            src="/res/lambang_srg.jpg"
+            alt="lambang_srg"
+            class="profile_aside"
+          />
           <figcaption>Lambang Sragen</figcaption>
         </figure>
       </article>
       <section>
         <h3>Informasi Lainnya</h3>
+        <!-- Table to provide information about Sragen  -->
         <table>
           <tr>
             <th>Negara</th>
@@ -126,5 +150,5 @@
       </section>
     </aside>
   </body>
-  <footer>Emmanuel Dito &#169; 2023</footer>
+  <footer class="profile_footer">Emmanuel Dito &#169; 2023</footer>
 </html>

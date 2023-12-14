@@ -4,6 +4,11 @@
 }
 body {
   font-family: "Quicksand", sans-serif;
+  /*
+  mengatur agar ukuran jumbotron memenuhi layar browser 
+  */
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -30,4 +35,73 @@ h4 {
 
 .sragen_aside {
   color: orangered;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline;
+  color: brown;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.sragen_aside_header {
+  text-align: center;
+}
+
+.profile_footer {
+  text-align: center;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.website_body {
+  background-color: rgb(235, 255, 213);
+}
+
+.profile_image {
+  width: 100%;
+  max-height: 300px;
+  /*
+  agar gambar seimbang , tidak memenuhi jendela browser 
+  */
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile_aside {
+  width: 200px;
+}
+
+.box_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.jumbotron_header {
+  font-size: 20px;
+  padding: 60px;
+  background-color: burlywood;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
 }
