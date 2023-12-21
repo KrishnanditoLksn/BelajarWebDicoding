@@ -9,6 +9,7 @@ body {
   */
   margin: 0;
   padding: 0;
+  overflow: auto;
 }
 
 h2 {
@@ -27,6 +28,12 @@ footer {
   padding: 20px;
   color: white;
   background-color: darkgoldenrod;
+}
+
+#content {
+  float: left;
+  width: 75%;
+  padding-right: 20px;
 }
 
 h4 {
@@ -100,8 +107,21 @@ nav li {
 
 nav {
   padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 main {
   padding: 20px;
+}
+
+aside {
+  float: right;
+  width: 25%;
+
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
 }
